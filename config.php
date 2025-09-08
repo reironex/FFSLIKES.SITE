@@ -1,17 +1,17 @@
 <?php
-// Database configuration
-$host = "db4free.net";          // palitan mo depende sa DB host (default ng db4free)
-$username = "johnalbertalpayy@gmail.com"; // palitan mo ng db4free username mo
-$password = "babykojohn15y"; // palitan mo ng db4free password mo
-$dbname = "John Albert Alpay";       // palitan mo ng db4free database name mo
+// Database config from InfinityFree
+$host = "sql307.infinityfree.com ";   // Palitan ng exact DB host (hal. sql212.epizy.com)
+$username = "if0_39892767";  // Iyong DB username galing sa cPanel
+$password = "7rpmBSXrI0QFoO"; // Iyong DB password
+$dbname = "if0_39892767_XXX "; // Iyong DB name
 
-// User agent string (ginagamit sa mga cURL request mo)
+// Optional user agent (ginagamit sa requests mo)
 $useragent = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36";
 
 // Gumawa ng MySQL connection
 $connection = mysqli_connect($host, $username, $password, $dbname);
 
-// Check kung may error
+// Check connection
 if (!$connection) {
     die('Could not connect: ' . mysqli_connect_error());
 }
