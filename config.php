@@ -1,7 +1,7 @@
 <?php
 // Database configuration
 $host = "db4free.net";          // palitan mo depende sa DB host (default ng db4free)
-$username = "johnalpay"; // palitan mo ng db4free username mo
+$username = "johnalbertalpayy@gmail.com"; // palitan mo ng db4free username mo
 $password = "babykojohn15y"; // palitan mo ng db4free password mo
 $dbname = "John Albert Alpay";       // palitan mo ng db4free database name mo
 
